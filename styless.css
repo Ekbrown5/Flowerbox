@@ -1,0 +1,65 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: light grey;
+}
+
+header {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+div {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px;
+}
+
+.flower-category {
+    max-width: 300px;
+    margin: 20px;
+    background-color: white;
+    padding: 100px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.flower-category h2 {
+    color: #a6ac9f;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+.section-container {
+    position: relative;
+    width: 100%;
+}
+
+
+img {
+  width: 100%;  
+} 
+
+.content {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
